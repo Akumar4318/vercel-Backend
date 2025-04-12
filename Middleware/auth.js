@@ -8,6 +8,7 @@ require('dotenv').config()
 exports.auth=async(req,res,next)=>{
     
     try {
+        console.log("ok")
         
         //? extract token
 
